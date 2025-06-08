@@ -1,6 +1,7 @@
 package com.dot.khorn;
 
 import com.dot.khorn.Blocks.ModBlocks;
+import com.dot.khorn.Enchants.ModEnchantments;
 import com.dot.khorn.Items.ModCreativeModTabs;
 import com.dot.khorn.Items.ModItems;
 import com.mojang.logging.LogUtils;
@@ -36,6 +37,7 @@ public class KhornMod
         ModCreativeModTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
         modEventBus.addListener(this::addCreative);
+        ModEnchantments.register(modEventBus);
 
 
     }
@@ -66,6 +68,7 @@ public class KhornMod
         {
 
         }
+
     }
 }
 
