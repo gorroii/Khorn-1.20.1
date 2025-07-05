@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone_sword",
+    "khorn:sendulum",
+    "khorn:maki_spear",
+    "khorn:aksbiranian_greataxe",
+    "khorn:rankatan",
+    "khorn:rey_scythe"
+  ]
+}

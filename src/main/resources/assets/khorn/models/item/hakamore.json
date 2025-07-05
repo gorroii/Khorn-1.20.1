@@ -1,0 +1,13 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "khorn:item/hakamore"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [77.79, -83.8, 112.47],
+      "translation": [0, 0, 1.25],
+      "scale": [2.5, 2.5, 1]
+    }
+  }
+}

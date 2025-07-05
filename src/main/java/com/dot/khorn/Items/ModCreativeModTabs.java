@@ -15,10 +15,10 @@ public class ModCreativeModTabs {public static final DeferredRegister<CreativeMo
     public static void register(IEventBus eventBus) {
 
         final RegistryObject<CreativeModeTab> KHORN_TAB = CREATIVE_MODE_TABS.register("khorn_beta",
-                () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KHORNIUM.get()))
-                        .title(Component.translatable("creativetab.khorn_beta"))
+                () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KHORNUM.get()))
+                        .title(Component.translatable("creativetab.khorn"))
                         .displayItems((itemDisplayParameters, output) -> {
-                            output.accept(ModItems.KHORNIUM.get());
+                            output.accept(ModItems.KHORNUM.get());
                         })
                         .build());
         CREATIVE_MODE_TABS.register(eventBus);

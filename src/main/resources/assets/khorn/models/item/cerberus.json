@@ -2,5 +2,12 @@
   "parent": "item/handheld",
   "textures": {
     "layer0": "khorn:item/cerberus"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [-7.65, 84.47, 56.63],
+      "translation": [-0.5, 7, 3],
+      "scale": [1.5, 1.5, 1.5]
+    }
   }
 }

@@ -1,0 +1,12 @@
+{
+  "rankatan_sound_test": {
+    "category": "voice",
+    "subtitles": "sounds.khorn.rankatan_sound_test",
+    "sounds": [
+      {
+        "name": "khorn:rankatan_sound_test",
+        "stream": true
+      }
+    ]
+  }
+}

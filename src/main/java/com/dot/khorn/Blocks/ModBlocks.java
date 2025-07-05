@@ -1,12 +1,12 @@
 package com.dot.khorn.Blocks;
 
+import com.dot.khorn.Blocks.custom.ReligionBlockTest;
 import com.dot.khorn.Items.ModItems;
 import com.dot.khorn.KhornMod;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +24,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.EMERALD_ORE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DEEPSLATE_KHORNIUM_ORE = registerBlock("deepslate_khornium_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_EMERALD_ORE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> RELIGION_BLOCK_TEST = registerBlock("religion_block_test",
+            () -> new ReligionBlockTest(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_EMERALD_ORE).sound(SoundType.STONE)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
